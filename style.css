@@ -1,0 +1,13 @@
+
+body{margin:0;font-family:Arial;background:#0b1020;color:white}
+nav{display:flex;justify-content:space-between;padding:20px;background:rgba(0,0,0,.7);position:sticky;top:0}
+nav a,button{color:white;background:none;border:none;margin-left:15px;cursor:pointer}
+.hero{display:flex;align-items:center;justify-content:center;gap:50px;padding:80px 10%}
+.profile{width:320px;border-radius:25px;box-shadow:0 0 30px rgba(0,255,255,.4)}
+.buttons a{padding:10px 15px;background:#38bdf8;color:black;text-decoration:none;border-radius:10px;margin-right:10px}
+section{padding:60px 10%}
+.skills .bar{height:10px;background:#333;border-radius:10px}
+.skills .bar div{height:10px;background:#38bdf8;border-radius:10px}
+.cards,.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card,.stats div{background:#121a33;padding:20px;border-radius:15px}
+.light{background:white;color:black}
